@@ -1,2 +1,3 @@
-ib_async
-pandas
+ib_async==1.0.3
+pandas==2.2.3
+jupyter==1.1.1
