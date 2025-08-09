@@ -4,7 +4,7 @@ util.startLoop()  # Required for notebooks using asyncio event loop
 
 # Initialize IB API connection
 ib = IB()
-ib.connect('127.0.0.1', 4004, clientId=4)  # Make sure port & clientId are aligned with Gateway config
+ib.connect('127.0.0.1', 4004, clientId=400)  # Make sure port & clientId are aligned with Gateway config
 
 # Set market data type to delayed/free data
 ib.reqMarketDataType(4)
